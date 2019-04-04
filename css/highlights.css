@@ -1,3 +1,4 @@
+/* Section - Highlights */
 .highlights {
-    /** Some code here **/
+    display: flex;
 }
