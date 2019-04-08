@@ -122,22 +122,10 @@
     /* background: lightcoral; */
   }
   
-  .iframe-container {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-  }
-  .iframe-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+  
   .imageWrapper {
     position: relative;
-    padding-bottom: 56.25%;  /*16:9 Aspect Ratio */
+    padding-bottom: 56.25%;  /*16:9 Aspect Ratio
     height: 0;
     width: 100%; /* You can set this width to whatever suits your needs */
     margin: 0 auto;
@@ -174,5 +162,11 @@
     padding: 20px;
     font-color: black;
     font-weight: bold;
+}
+.block {
+  padding: .025rem;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
 }
   
