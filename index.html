@@ -8,31 +8,43 @@
     <title>Team Los Angeles - BMW</title>
     <link rel="stylesheet" href="style.css">
     <!-- Add all other parts here -->
-    <link rel="stylesheet" href="css/top-menu.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/highlights.css">
-    <link rel="stylesheet" href="css/call-to-action__search.css">
-    <link rel="stylesheet" href="css/blocks.css">
-    <link rel="stylesheet" href="css/show-more.css">
-    <link rel="stylesheet" href="css/social.css">
-    <link rel="stylesheet" href="css/footer.css">
-</head>
+    <link rel="stylesheet" href="css/top-menu.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/highlights.css" />
+    <link rel="stylesheet" href="css/call-to-action__search.css" />
+    <link rel="stylesheet" href="css/blocks.css" />
+    <link rel="stylesheet" href="css/show-more.css" />
+    <link rel="stylesheet" href="css/social.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
 
-<body>
+  <body>
     <nav>
-        <!-- top menu -->
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Automotive Life</a></li>
-            <li><a href="">Design</a></li>
-            <li><a href="">Innovation</a></li>
-            <li><a href="">Performance</a></li>
-            <li><a href="">Models</a></li>
+      <!-- top menu -->
+      <ul class= "menu-bar" >
+        <li><a href="index.html">Home</a></li>
+        <li><a href="">Automotive Life</a></li>
+        <li><a href="">Design</a></li>
+        <li><a href="">Innovation</a></li>
+        <li><a href="">Performance</a></li>
+        <li><a href="">Models</a></li>
+        <li><i class="fa fa-fw fa-search"></i></li>
         </ul>
     </nav>
     <section class="hero">
+        <video class="hero_teaser-video" loop autoplay>
+            <source
+                src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/art-of-life/aol-00-teaser-hd.mp4"
+                type="video/webm">
+        </video>
+        <div class="hero_text-block">
+            <div class="hero_text-subject">Interior design</div>
+            <div class="hero_text-title">Inspired by nature</div>
+            <div class="hero_button">Read more</div>
+        </div>
     </section>
     <section class="highlights">
+
         <video class="highlight_teaser-left" loop autoplay>
             <source
                 src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/brooklyn/2/bb-00-teaser-square.mp4"
@@ -65,65 +77,270 @@
     </section>
 
     <section class="blocks-container">
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
-        <div class="block">
-            <p class="subline">Subline</p>
-            <h3>Header</h3>
-        </div>
+      <div class="iframe-container block1">
+        <div class="videoWrapper">
+          <video autoplay loop muted>
+              <source
+                  src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/performance/0-100/0-00-teaser-hd.mp4"
+                  type="video/mp4">
+              Your browser does not support the video tag
+          </video>
+      </div>
+      <div class="text-block">
+        <p class="subline">Acceleration</p>
+        <h3 class="header">From 0 to 60: Get up to speed on acceleration!</h3>
+    </div>  
+          <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block2">
+        <div class="videoWrapper">
+          <video autoplay loop muted>
+              <source
+                  src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/new-car/1/nc-00-teaser-hd.mp4"
+                  type="video/mp4">
+              Your browser does not support the video tag
+          </video>
+      </div>
+      <div class="text-block">
+                <p class="subline">Advice</p>
+                <h3 class="header">Buy and go? Things to consider with your new car</h3>
+            </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block3">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/monocle/mo-00-teaser-hd1.jpg.asset.1553504375727.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Luxury</p>
+        <h3 class="header">The art of owning the moment</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block4">
+        <div class="videoWrapper">
+          <video autoplay loop muted>
+              <source
+                  src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/innovation/copilot-2/copilot-00-teaser-hd.mp4"
+                  type="video/mp4">
+              Your browser does not support the video tag
+          </video>
+      </div>
+      <div class="text-block">
+        <p class="subline">Self-driving cars</p>
+        <h3 class="header">The Road To Autonomous Driving</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block5">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Design/my_favorite_space/mfs-00-teaser-hd.jpg.asset.1537430075672.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Design</p>
+        <h3 class="header">The secret of our favorite places</h3>
+    </div>
+      </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      <div class="iframe-container block6">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/Mapping/mapping-00-teaser-hd.jpg.asset.1510611735857.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Mapping</p>
+        <h3 class="header">Digital measuring of the world</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block7">
+        <div class="videoWrapper">
+          <video autoplay loop muted>
+              <source
+                  src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/Automotive%20Life/Autonomous%20Driving/autonomous-driving-00-teaser-hd.mp4"
+                  type="video/mp4">
+              Your browser does not support the video tag
+          </video>
+      </div>
+      <div class="text-block">
+        <p class="subline">Autonomous driving</p>
+        <h3 class="header">Where are we today? How do we drive tomorrow?</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block8">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/carsharing/carsharingprofis-00-teaser-hd.jpg.asset.1510611854915.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Carsharing</p>
+        <h3 class="header">Carsharing experts share top secrets.</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block9">
+        <div class="videoWrapper">
+          <video autoplay loop muted>
+              <source
+                  src="https://www.bmw.com/video/is/content/BMW/bmwcom/bmw_com/category/performance/bowers-wilkins/bw-00-teaser-hd.mp4"
+                  type="video/mp4">
+              Your browser does not support the video tag
+          </video>
+      </div>
+      <div class="text-block">
+        <p class="subline">Music</p>
+        <h3 class="header">The 6 best songs to test your car speakers</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block10">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/automotive-life/bmw-erlkoenige/bmw-erlkoenige-00-teaser-hd.jpg.asset.1517490275436.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Erlkönig – German prototype cars</p>
+        <h3 class="header">The art of deception</h3>
+    </div>
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
+      <div class="iframe-container block11">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/smart-cities/smart-cities-00-teaser-hd.jpg.asset.1510611715654.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Smart cities</p>
+        <h3 class="header">These cities are really thinking</h3>
+    </div>
+      </div>
+      <div class="iframe-container block12">
+        <div class="imageWrapper">
+          <img class="img"
+              src="https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/rad-hub/hub-00-teaser-hd.jpg.asset.1543324879127.jpg"
+              alt="Grapefruit slice atop a pile of other slices" />
+      </div>
+      <div class="text-block">
+        <p class="subline">Innovation</p>
+        <h3 class="header">Is this the Future of Mobility?</h3>
+    </div>
+
+        <!-- <p class="subline">Subline</p>
+            <h3>Header</h3> -->
+      </div>
     </section>
     <section class="call-to-action__show-more">
-        <!-- More -->
-        <a href="#" class="button gray">Show more</a>
+      <!-- More -->
+      <a href="#" class="button gray">Show more</a>
     </section>
     <section class="socials">
+
         <!-- Socials -->
+        <div class="header">
+        <h1>BMW ON THE SOCIAL WEB</h1>
+        <p>Become part of the BMW community</p>
+    </div>
+    <div class="row">
+        <div class="column"><img src="https://scontent-ams3-1.cdninstagram.com/vp/b67e530d601a92d4fcd335dd424aac3a/5D3CA021/t51.2885-15/fr/e15/p1080x1080/51803976_144770226558851_7767752775360505818_n.jpg?_nc_ht=scontent-ams3-1.cdninstagram.com" style="width:100%">
+        <img src="https://electrek.co/wp-content/uploads/sites/3/2019/01/BMW-i8-Roadster-hero.jpg?quality=82&strip=all&w=1600" style="width:100%"></div>
+      <div class="column"><img src="https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/640x400/quality/80/https://s.aolcdn.com/commerce/autodata/images/USC90BMC681A021001.jpg" style="width:100%">
+        <img src="https://mediapool.bmwgroup.com/cache/P9/201705/P90259906/P90259906-bmw-art-car-18-by-cao-fei-augmented-reality-still-detail-bmw-art-car-based-on-the-bmw-m6-gt3--bmw-ag-2120px.jpg" style="width:100%"></div>
+      <div class="column"><img src="https://www.bmwgroup.com/content/dam/bmw-group-websites/bmwgroup_com/innovation/ACES/Flytout_iNEXT.jpg.grp-transform/large/Flytout_iNEXT.jpg" style="width:100%">
+     <img src="https://images.unsplash.com/photo-1517153295259-74eb0b416cee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3900&q=80" style="width:100%"></div>
+        <div class="column"><img src="https://images.unsplash.com/photo-1533239752861-f51f83282979?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=60" style="width:100%">
+        <img src=https://static.dealer.com/v9/variations/oem-bmw/0002/v1/images/index-bb-3.jpg?r=1502896527000" style="width:100%">
+    </div>
     </section>
     <footer class="footer-container">
         <!-- Footer -->
-    </footer>
-</body>
+        <div class="menu">
+            <nav class="menu-item">
+            <ul>
+             <li> English Italiano Francais Espanol</li>
+             </ul>
+            </nav>
+        </div>
+        <div class="bottom-bar">
+        <nav class="go-to-nav">
+        <ul>
+            <h2>Quick Links</h2>
+          <li class="nav-item">Home</li>
+          <li class="nav-item">BMW in your country</li>
+          <li class="nav-item">Careers</li>
+          <li class="nav-item">EU Detergents Regulation</li>
+          <li class="nav-item">REACH Regulation</li>
+          <li class="nav-item">Compatibility Check</li>
+          <li class="nav-item">Software Update</li>
+          <li class="nav-item">Accessories Update</li>
+        </ul>
+    </nav>
+    <nav class="product-nav">
+        <ul>
+            <h2>More BMW Websites</h2>
+        <li class="nav-item">BMW M</li>
+        <li class="nav-item">BMW Motorsport</li>
+        <li class="nav-item">BMW Golfsport</li>
+        <li class="nav-item">BMW Yachtsport</li>
+        <li class="nav-item">BMW Mountains</li>
+        <li class="nav-item">BMW Driving Experience</li>
+        <li class="nav-item">BMW Welt</li>
+        <li class="nav-item">BMW Group Classic</li>
+        <li class="nav-item">BMW Corporate/Direct Sales</li>
+        <li class="nav-item">BMW Group</li>
+    </ul>
+    </nav>
+    <nav class="about-us-nav">
+        <ul>
+            <h2 class="nav-item">BMW.com</h2>
+            <li class="nav-item">About BMW.com</li>
+            <li class="nav-item">Contact</li>
+            <li class="nav-item">Cookies</li>
+            <li class="nav-item">Imprint</li>
+            <li class="nav-item">Legal Notice / Data protection</li>
+        </ul>
+    </nav>
+    <nav class="social-nav">
+        <ul>
+            <h2>Visit us on</h2>
+            <li class="nav-item">Facebook</li>
+            <li class="nav-item">Twitter</li>
+            <li class="nav-item">Instagram</li>
+            <li class="nav-item">Google+</li>
+            <li class="nav-item">You Tube</li>
+        </ul>
+    </nav>
+    <nav class="bottom-item">
+ <ul>
+    <li class="bottom-item">>© BMW AG 2019</li>
+ </ul>
+</nav>
+</div>
 
+
+
+      <!-- Socials -->
+    </section>
+    <footer class="footer-container">
+      <!-- Footer -->
+    </footer>
+  </body>
 </html>
