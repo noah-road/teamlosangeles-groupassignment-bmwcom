@@ -1,0 +1,25 @@
+.call-to-action_search {
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.cta_textblock {
+    color: var(--black);
+}
+
+.cta_text-one {
+    font-weight: 100;
+    font-size: 2rem;
+}
+.cta_text-two {
+    font-weight: 700;
+    font-size: 4rem;
+}
+.cta_text-three {
+    font-weight: 500;
+    font-size: 2rem;
+}
